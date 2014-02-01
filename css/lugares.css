@@ -1,0 +1,30 @@
+.smartphone
+{
+background: url("../images/sprite_tf.png") no-repeat ;
+width: 120px;
+height: 120px;
+}
+.pc
+{
+background: url("../images/sprite_tf.png") no-repeat;
+width: 120px;
+height: 120px;
+}
+.coffee
+{
+background: url("../images/sprite_tf.png") no-repeat;
+width: 120px;
+height: 120px;
+}
+.food
+{
+background: url("../images/sprite_tf.png") no-repeat;
+width: 120px;
+height: 120px;
+}
+.aliens
+{
+background: url("../images/sprite_tf.png") no-repeat;
+width: 120px;
+height: 120px;
+}
