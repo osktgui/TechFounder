@@ -1,9 +1,12 @@
-
+h1{
+	color:#F39C12;
+	font-size: 36px;
+}
 .content_header{
 	position:absolute;
 	text-align: center; 
 	width: inherit;
-	margin-top:100px;
+	margin-top:140px;
 }
 .content_header p{
 	font-size: 36px;
@@ -26,8 +29,8 @@
 	border-radius: 5px;
 	text-decoration: none;
 	cursor: pointer;
-	font-size: 26px;
-	width: 340px;
+	font-size: 22px;
+	width: 280px;
 	display: inline-block;
 	font-family: 'Roboto', sans-serif;
 }
@@ -41,6 +44,96 @@ a.boton_aplicar:hover{
 }
 .proyecto{
 	float: left;
-	width: 290px;
-	marigin: 0px 10px; 
+	width: 270px;
+	margin: 20px 18px; 
+	border: 1px solid #CCC;
+	height: 140px;
+	display: block;
+	text-align: center;
 } 
+.proyecto img{
+	margin-top:55px;
+}
+.container_header{
+	text-align: center;
+	margin:30px 0px;
+}
+.container_header p{
+	text-align: center;
+	margin:10px 0px;
+	font-family: 'Lustria', serif;
+}
+.proyecto:hover{
+	border-color:#F39C12 ;
+}
+
+.procesos a{
+	width: 188px;
+	height: 250px; 
+	float:left;
+	margin: 0px;
+	padding: 0px;
+	/*background-color:#F39C12;*/ 
+	text-align: center;
+	text-decoration: none;
+
+	font-family: 'Roboto', sans-serif;
+	color: #CCC;
+
+}
+.procesos a:hover{
+	color: white;
+	background-color:#F39C12;
+}
+.procesos a img {
+	margin-top:50px;
+	height: 116px;
+	width: 116px;
+}
+.procesos a span{
+	display: block;
+	width: 180px;
+	margin:10px 0;
+}
+.define img{ 
+	background:url("../images/sprite_tf.png") 0px -26px;
+}
+a.define:hover img{
+	background:url("../images/sprite_tf.png") 0px -143px;
+}
+.ideate img{ 
+	background:url("../images/sprite_tf.png") -117px -26px;
+}
+a.ideate:hover img{
+	background:url("../images/sprite_tf.png") -117px -143px;
+}
+.prototype img{ 
+	background:url("../images/sprite_tf.png") -234px -26px;
+}
+a.prototype:hover img{
+	background:url("../images/sprite_tf.png") -234px -143px;
+}
+.build img{ 
+	background:url("../images/sprite_tf.png") -351px -26px;
+}
+a.build:hover img{
+	background:url("../images/sprite_tf.png") -351px -143px;
+}
+.analyze img{ 
+	background:url("../images/sprite_tf.png") -468px -26px;
+}
+a.analyze:hover img{
+	background:url("../images/sprite_tf.png") -468px -143px;
+}
+
+.proceso_descripcion{
+	background-color: #F39C12;
+	height: 100px;
+}
+
+.proceso_descripcion p{
+	text-align: center;
+	font-family: 'Lustria', serif;
+	padding: 20px;
+	color: #FFF;
+}
