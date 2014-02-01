@@ -165,3 +165,9 @@ footer p.foot_text
 	font-size: 14px;
 	color: #00ffff;
 }
+
+.container_header p
+{
+	color: #666;
+	font-size: 22px;
+}
