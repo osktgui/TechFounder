@@ -2,6 +2,9 @@ header
 {
 	background: #f3f3f3;
 	border-bottom: 1px solid #999;
+	width: 100%;
+	position: fixed;
+
 }
 header h1.logo
 {
@@ -52,6 +55,7 @@ header nav ul li nav
 header nav ul li img 
 {
 	background: url(../images/sprite_tf.png) no-repeat -33px 0 ;
+
 	width: 32px;
 	height: 25px;
 	margin-bottom: -5px;
@@ -67,7 +71,8 @@ header nav ul li:hover:last-child, header nav ul li:last-child
 {
 	background: #f39c12;
 }
-header nav ul li:hover img, header nav ul li.active img
+header nav ul l
+i:hover img, header nav ul li.active img
 {
 	background-position: 0 0;
 }
@@ -75,4 +80,88 @@ header nav ul li nav a
 {
 	display: inline-block;
 	color: #fff;
+}
+section.ejemplo 
+{
+	height: 700px;
+}
+footer
+{
+	background-color: #004444;
+	padding-top: 80px;
+	padding-bottom: 20px;
+}
+footer h5
+{
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	color: #fff;
+	margin-bottom: 20px;
+}
+footer p
+{
+	font-family: 'Lustria', serif;
+	font-size: 16px;
+	color: #f4f4f4;
+}
+footer ul li
+{
+	display: inline-block;
+}
+footer ul li a img
+{
+	background: url(../images/sprite_tf.png) no-repeat -46px -302px;
+	width: 45px;
+	height: 45px;
+	margin-top: 20px;
+	margin-right: 10px;
+}
+footer ul li.fb a:hover img
+{
+	background-position: 0px -302px;
+}
+footer ul li.tw a img
+{
+	background-position: -138px -302px;
+}
+footer ul li.tw a:hover img
+{
+	background-position: -92px -302px;
+}
+footer input[type=email] 
+{
+	padding: 12px 10px;
+	margin-top: 20px;
+	border: 1px solid #ccc;
+	background: transparent;
+	width: 430px;
+	color: #fff;
+	outline: 0;
+}
+footer input[type=submit] 
+{
+	background: transparent url(../images/sprite_tf.png) no-repeat -67px 0;
+	width: 12px;
+	height: 12px;
+	border: none;
+	text-indent: 900px;
+	margin-top: -28px;
+	margin-right: 18px;
+	float: right;
+
+}
+footer p a
+{
+	color: #00ffff;
+	text-decoration: none;
+}
+
+footer p.foot_text
+{
+	text-decoration: none;
+	text-align: center;
+	margin-top: 40px;
+	font-size: 14px;
+	color: #00ffff;
 }
