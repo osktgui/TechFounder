@@ -1,15 +1,18 @@
 
-
+/**
 *
 {
 	font-size: 17px;
 	font-family: 'Roboto', sans-serif;
 }
 
+*/
+
 h1
 {
 	color: #F39C12;
 	font-size: 30px;
+	font-family: 'Roboto';
 }
 
 a
@@ -25,25 +28,30 @@ a
 	margin-left: auto;
 	text-align: center;
 	margin-bottom: 20px;
-	margin-top: 20px;
+	margin-top: 80px;
 }
 
 .suscripcion
 {
 	margin-top: 20px;
+	font-size: 18px;
 }
 
 .titulo p
 {
-	font-size: 18px;
+	font-size: 22px;
 	margin-top: 20px;
+	font-family: 'lustria', serif;
+	color: #999;
 }
 
 input[type="text"]{
-	height: 30px;
-	width: 41%;
+	height: 40px;
+	width: 32%;
 	border-radius: 4px;
 	border: solid 1px #f2f2f2;
+	padding-left: 10px;
+	outline: 0;
 }
 
 img.calendario
@@ -55,25 +63,31 @@ img.calendario
 
 img.comentarios
 {
-	width: 17px;
-	height: 15px;
-	background: url("../images/sprite_tf.png") -16px -348px;
+	width: 20px;
+	height: 16px;
+	background: url("../images/sprite_tf.png") -17px -348px;
 }
 
 .buttonsend
 {
 	background: #F39C12;
-	padding: 10px 12px 10px 12px;
-	border-radius: 4px;
+	padding: 10px 13px 10px 13px;
+	border-radius: 5px;
 	color: #fff;
+	margin-left: 5px;
+	font-family: 'roboto';
+	font-size: 14px;
 }
 
 .buttondefault
 {
 	background: #D8D8D8;
-	padding: 10px 12px 10px 12px;
+	padding: 10px 13px 10px 13px;
 	border-radius: 4px;
-	color: #000;
+	color: #746C6C;
+	margin-left: 5px;
+	font-family: 'roboto';
+	font-size: 14px;
 }
 
 .buttonsend:hover
@@ -103,13 +117,24 @@ img.comentarios
 
 .contenidopost
 {
-	padding: 20px;
+	padding: 20px 20px 5px 20px;
 }
 
 .contenidopost h3
 {
-	font-size: 19px;
-	margin-bottom: 10px;
+	font-size: 22px;
+	margin-bottom: px;
+	font-family: 'Roboto';
+	font-weight: bold;
+
+}
+
+.contenidopost p
+{
+	font-family: 'lustria', sans-serif;
+	color: #929292;
+	font-size: 14px;
+	font-weight: normal;
 }
 
 .contenidopost span
@@ -120,13 +145,19 @@ img.comentarios
 
 .bottompost
 {
-	margin-top: 10px;
+	margin-bottom: 20px;
 }
+
 
 .bottompost ul {
 	list-style: none;
 	float: left;
 	margin:0;
+	font-family: 'roboto';
+	font-weight: regular;
+	color: #929292;
+	margin-left: 20px;
+	font-size: 14px;
 }
 
 .bottompost li
@@ -141,7 +172,8 @@ img.comentarios
 .paginacion
 {
 	text-align: center;
-	margin-bottom: 30px;
+	margin-bottom: 80px;
 	margin-right: auto;
 	margin-left: auto;
+	font-family: 'Roboto', sans-serif;
 }
