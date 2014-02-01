@@ -6,6 +6,8 @@ header
 header h1.logo
 {
 	float: left;
+	margin-top: 25px;
+	margin-bottom: 16px;
 }
 header h1.logo span
 {
@@ -20,8 +22,14 @@ header nav a
 	text-decoration: none;
 	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
+	color: #004444
 }
 header nav ul li
 {
 	display: inline-block;
+	margin: 35px 15px 0;
+}
+header nav ul li nav
+{
+	display: none;
 }
