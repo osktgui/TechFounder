@@ -1,0 +1,46 @@
+
+.titulo
+{
+	font-family: 'Roboto';
+	text-align: center;
+}
+
+.titulo h1
+{
+	color: #F39C12;
+	font-size: 30px;
+}
+
+.phone
+{
+	background: url("../images/sprite_tf.png") 0px -363px;
+	width: 117px;
+	height: 116px;
+}
+.pc
+{
+	background: url("../images/sprite_tf.png") 566px -363px;
+	width: 117px;
+	height: 116px;
+}
+
+.coffe
+{
+	background: url("../images/sprite_tf.png") 1134px -363px;
+	width: 117px;
+	height: 116px;
+}
+
+.food
+{
+	background: url("../images/sprite_tf.png") 1701px -363px;
+	width: 117px;
+	height: 116px;
+}
+
+.aliens
+{
+	background: url("../images/sprite_tf.png") 216px -363px;
+	width: 117px;
+	height: 116px;
+}
