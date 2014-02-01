@@ -1,0 +1,147 @@
+
+
+*
+{
+	font-size: 17px;
+	font-family: 'Roboto', sans-serif;
+}
+
+h1
+{
+	color: #F39C12;
+	font-size: 30px;
+}
+
+a
+{
+	color: #F39C12;
+	text-decoration: none;
+}
+
+.titulo
+{
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.suscripcion
+{
+	margin-top: 20px;
+}
+
+.titulo p
+{
+	font-size: 18px;
+	margin-top: 20px;
+}
+
+input[type="text"]{
+	height: 30px;
+	width: 41%;
+	border-radius: 4px;
+	border: solid 1px #f2f2f2;
+}
+
+img.calendario
+{
+	width: 17px;
+	height: 15px;
+	background: url("../images/sprite_tf.png")  0px -348px;
+}
+
+img.comentarios
+{
+	width: 17px;
+	height: 15px;
+	background: url("../images/sprite_tf.png") -16px -348px;
+}
+
+.buttonsend
+{
+	background: #F39C12;
+	padding: 10px 12px 10px 12px;
+	border-radius: 4px;
+	color: #fff;
+}
+
+.buttondefault
+{
+	background: #D8D8D8;
+	padding: 10px 12px 10px 12px;
+	border-radius: 4px;
+	color: #000;
+}
+
+.buttonsend:hover
+{
+	background: #F6BA63;
+}
+
+.buttondefault:hover
+{
+	background: #F3F3F3;
+}
+
+.post
+{
+	border-width: 1px;
+	border-color: #C5C4C4;
+	border-style: solid;
+	margin: 20px 20px 40px 0;
+	padding-bottom: 25px;
+}
+
+.titleimage
+{
+	width: 100%;
+}
+
+
+.contenidopost
+{
+	padding: 20px;
+}
+
+.contenidopost h3
+{
+	font-size: 19px;
+	margin-bottom: 10px;
+}
+
+.contenidopost span
+{
+	color: #F39C12;
+}
+
+
+.bottompost
+{
+	margin-top: 10px;
+}
+
+.bottompost ul {
+	list-style: none;
+	float: left;
+	margin:0;
+}
+
+.bottompost li
+{	
+	float: left;
+	vertical-align: middle;
+	text-align: center;
+	margin: 5px;
+	display: inline;
+}
+
+.paginacion
+{
+	text-align: center;
+	margin-bottom: 30px;
+	margin-right: auto;
+	margin-left: auto;
+}
