@@ -34,4 +34,13 @@
 
 a.boton_aplicar:hover{
 	background-color: #F6BA63;
+	font-family: 'Roboto', sans-serif;
+}
+.ultimos_proyectos{
+	padding: 10px 5px;
+}
+.proyecto{
+	float: left;
+	width: 290px;
+	marigin: 0px 10px; 
 }
