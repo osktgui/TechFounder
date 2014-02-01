@@ -23,18 +23,23 @@
 	<!-- Scripts -->
 	
 
-	<script type="text/javascript" src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
 	<script type="text/javascript" src="js/css3-mediaqueries.js"></script>
+	<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+
+	<script type="text/javascript" src="js/techfounder.jquery.js"></script>
+
 	<!-- Favicons -->
 	<link rel="shortcut icon" href="images/icons/favicon.ico">
 	<link rel="apple-touch-icon-precomposed" href="images/icons/apple-touch-icon.png">
 	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/icons/apple-touch-icon-72x72.png" />
 	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/icons/apple-touch-icon-114x114.png" />
 
+ 
 </head>
 <body> 
 	
-	<header>
+	<header id="menu_principal">
 		<div class="container">
 			<div class="row">
 				<div class="g12">
@@ -51,8 +56,8 @@
 								<a href="">BLOG</a>
 							</li>
 							<li class="active">
-								<a href=""><img src="images/pixel.gif"></a>
-								<nav>
+								<a href="javascript:void(0);" id="boton_mostrar"><img src="images/pixel.gif"></a>
+								<nav id="menu_adicional">
 									<a href="">PROJECTS</a>
 									<a href="">PROCESS</a>  
 									<a href="">TEAM</a>   
@@ -67,8 +72,8 @@
 			
 		</div>
 	</header>
-	
-	<header>
+
+	<div>
 		<div class="container">
 			<div class="row">
 				<div class="g12">
@@ -83,7 +88,7 @@
 				</div>
 			</div>
 		</div>
-	</header>
+	</div>
 	<section>
 		<div class="img_banner">
 			<img src="images/banner.jpg" alt="Tech Founder">
@@ -112,280 +117,104 @@
 			<div class="row">
 				<div class="g12">
 					<div class="ultimos_proyectos">
-						<div class="proyecto">
-							text 1
+						<a href="#" class="proyecto">
+							<img src="images/about_me.png" alt="about.me" width="150">
+						</a>
+						<a href="#" class="proyecto">
+							<img src="images/about_me.png" alt="about.me"  width="150">
+						</a>
+						<a href="#" class="proyecto">
+							<img src="images/about_me.png" alt="about.me"  width="150">
+						</a>
+						<a href="#" class="proyecto">
+							<img src="images/about_me.png" alt="about.me"  width="150">
+						</a>
+						<a href="#" class="proyecto">
+							<img src="images/about_me.png" alt="about.me"  width="150">
+						</a>
+						<a href="#" class="proyecto">
+							<img src="images/about_me.png" alt="about.me"  width="150">
+						</a> 
+					</div>
+				</div>
+			</div>
+
+			<div class="container">
+				<div class="row">
+					<div class="g12">
+						<div class="container_header">
+							<h1>PROCESS</h1>
 						</div>
-						<div class="proyecto">
-							text 2
+						
+					</div>
+					<div class="g12">
+						<div class="procesos">
+							<a href="#" class="define"><img src="images/pixel.gif" alt="">
+							<span>
+								DEFINE
+							</span>
+							</a>
+							<a href="#" class="ideate"><img src="images/pixel.gif" alt=""><span>
+								IDEATE
+							</span></a>
+							<a href="#" class="prototype"><img src="images/pixel.gif" alt=""><span>
+								PROTOTYPE
+							</span>
+						</a>
+							<a href="#" class="build"><img src="images/pixel.gif" alt=""><span>
+								BUILD
+							</span></a>
+							<a href="#" class="analyze"><img src="images/pixel.gif" alt=""><span>
+								ANALYZE
+							</span></a>
 						</div>
-						<div class="proyecto">
-							text 3
+					</div>
+				</div>
+			</div> 
+		</div>
+		<div class="proceso_descripcion">
+				<div class="row">
+					<div class="container">
+						<div class="g12">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, similique, cupiditate, quisquam, odio enim nostrum aliquam cumque sint voluptatibus aspernatur tempore obcaecati fuga molestias vel dolor eos magni illum delectus!</p>
 						</div>
 					</div>
 				</div>
 			</div>
-		</div>
-
 	</section>
 
+
+
 	
-
-	<div class="container ejemplo">
-		<div class="row">
-			<div class="g1">
-				<p>1</p>
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="g3">
+					<h5>SOCIAL</h5>
+					<p>Donec nec magna dui. Aenean ullamcorper a sem.</p>
+					<ul>
+						<li class="fb"><a href=""><img src="images/pixel.gif"></a></li>
+						<li class="tw"><a href=""><img src="images/pixel.gif"></a></li>
+					</ul>
+				</div>
+				<div class="g6">
+					<h5>EMAIL UPDATES</h5>
+					<p>Donec nec magna dui. Aenean ullamcorper a imperdiet ultricies mauris aenean. </p>
+					<input type="email" placeholder="e-mail">
+					<input type="submit" text="">
+				</div>
+				<div class="g3">
+					<h5>CONTACT US</h5>
+					<p>¿Questions? magna dui. Aenean imperdiet ultricies aenean. Aenean ullamcorper a imperdiet ultricies mauris aenean <a href="">Email Us.</a></p>
+				</div>
 			</div>
-			<div class="g1">
-				<p>1</p>
-			</div>
-			<div class="g1">
-				<p>1</p>
-			</div>
-			<div class="g1">
-				<p>1</p>
-			</div>
-			<div class="g1">
-				<p>1</p>
-			</div>
-			<div class="g1">
-				<p>1</p>
-			</div>
-			<div class="g1">
-				<p>1</p>
-			</div>
-			<div class="g1">
-				<p>1</p>
-			</div>
-			<div class="g1">
-				<p>1</p>
-			</div>
-			<div class="g1">
-				<p>1</p>
-			</div>
-			<div class="g1">
-				<p>1</p>
-			</div>
-			<div class="g1">
-				<p>1</p>
+			<div class="row">
+				<div class="g12">
+					<p class="foot_text">Copyright 2013 · All rights reserved</p>
+				</div>
 			</div>
 		</div>
-
-		<div class="row">
-			<div class="g2">
-				<p>2</p>
-			</div>
-			<div class="g2">
-				<p>2</p>
-			</div>
-			<div class="g2">
-				<p>2</p>
-			</div>
-			<div class="g2">
-				<p>2</p>
-			</div>
-			<div class="g2">
-				<p>2</p>
-			</div>
-			<div class="g2">
-				<p>2</p>
-			</div>
-		</div>
-
-		<div class="row">
-			<div class="g3">
-				<p>3</p>
-			</div>
-			<div class="g3">
-				<p>3</p>
-			</div>
-			<div class="g3">
-				<p>3</p>
-			</div>
-			<div class="g3">
-				<p>3</p>
-			</div>
-		</div>
-
-		<div class="row">
-			<div class="g4">
-				<p>4</p>
-			</div>
-			<div class="g4">
-				<p>4</p>
-			</div>
-			<div class="g4">
-				<p>4</p>
-			</div>
-		</div>
-
-		<div class="row">
-			<div class="g1">
-				<p>1</p>
-			</div>
-			<div class="g11">
-				<p>11</p>
-			</div>
-		</div>
-
-		<div class="row">
-			<div class="g2">
-				<p>2</p>
-			</div>
-			<div class="g10">
-				<p>10</p>
-			</div>
-		</div>
-
-		<div class="row">
-			<div class="g3">
-				<p>3</p>
-			</div>
-			<div class="g9">
-				<p>9</p>
-			</div>
-		</div>
-
-		<div class="row">
-			<div class="g4">
-				<p>4</p>
-			</div>
-			<div class="g8">
-				<p>8</p>
-			</div>
-		</div>
-
-		<div class="row">
-			<div class="g5">
-				<p>5</p>
-			</div>
-			<div class="g7">
-				<p>7</p>
-			</div>
-		</div>
-
-		<div class="row">
-			<div class="g6">
-				<p>6</p>
-			</div>
-			<div class="g6">
-				<p>6</p>
-			</div>
-		</div>
-
-		<div class="row">
-			<div class="g7">
-				<p>7</p>
-			</div>
-			<div class="g5">
-				<p>5</p>
-			</div>
-		</div>
-
-		<div class="row">
-			<div class="g8">
-				<p>8</p>
-			</div>
-			<div class="g4">
-				<p>4</p>
-			</div>
-		</div>
-
-		<div class="row">
-			<div class="g9">
-				<p>9</p>
-			</div>
-			<div class="g3">
-				<p>3</p>
-			</div>
-		</div>
-
-		<div class="row">
-			<div class="g10">
-				<p>10</p>
-			</div>
-			<div class="g2">
-				<p>2</p>
-			</div>
-		</div>
-
-		<div class="row">
-			<div class="g11">
-				<p>11</p>
-			</div>
-			<div class="g1">
-				<p>1</p>
-			</div>
-		</div>
-
-		<div class="row">
-			<div class="g12">
-				<p>12</p>
-			</div>
-		</div>
-
-		<!--Usando prefijos y sufijos-->
-
-		<div class="row">
-			<div class="g2 suffix_10">
-				<p>2</p>
-			</div>
-		</div>
-
-		<div class="row">
-			<div class="g4 suffix_8">
-				<p>4</p>
-			</div>
-		</div>
-
-		<div class="row">
-			<div class="g6 suffix_6">
-				<p>6</p>
-			</div>
-		</div>
-
-		<div class="row">
-			<div class="g8 suffix_4">
-				<p>8</p>
-			</div>
-		</div>
-
-		<div class="row">
-			<div class="g10 suffix_2">
-				<p>10</p>
-			</div>
-		</div>
-
-
-		<div class="row">
-			<div class="g2 prefix_10">
-				<p>2</p>
-			</div>
-		</div>
-
-		<div class="row">
-			<div class="g4 prefix_8">
-				<p>4</p>
-			</div>
-		</div>
-
-		<div class="row">
-			<div class="g6 prefix_6">
-				<p>6</p>
-			</div>
-		</div>
-
-		<div class="row">
-			<div class="g8 prefix_4">
-				<p>8</p>
-			</div>
-		</div>
-
-		<div class="row">
-			<div class="g10 prefix_2">
-				<p>10</p>
-			</div>
-		</div>
-
-	</div>
+	</footer>
+	
 </body>
 </html>
