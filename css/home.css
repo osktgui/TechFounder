@@ -1,3 +1,4 @@
+
 .content_header{
 	position:absolute;
 	text-align: center; 
@@ -9,12 +10,14 @@
 	font-weight: normal;
 	color:white;
 	padding:20px;
+	font-family: 'Roboto', sans-serif;
 }
 .banner{
 	width: inherit;
 	text-align: center;
 	position: absolute;
 	margin-top: -200px;
+	font-family: 'Roboto', sans-serif;
 }
 .boton_aplicar{
 	background-color: #F39C12;
@@ -26,6 +29,7 @@
 	font-size: 26px;
 	width: 340px;
 	display: inline-block;
+	font-family: 'Roboto', sans-serif;
 }
 
 a.boton_aplicar:hover{
