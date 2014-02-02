@@ -48,8 +48,8 @@ a.boton_aplicar:hover{
 {
 	border-style: solid;
 	border-color: #AAA;
-	border-width: 1px;
-	background: #ccc;
+	border-width: 1px;	
+	background: #ececec;
 	display: none;
 	position: absolute;
 	height: 150px;
@@ -60,15 +60,19 @@ a.boton_aplicar:hover{
 
 .descripcionproyecto p
 {
+	margin: 15px;
 	position: absolute;
 	top: auto;
-	font-size: 14px;
+	font-size: 14px;	
 	font-family: 'Lustria';
+	line-height: 20px;	
+	color: #999;	
+	border: #cccccc;
 
-}
+}	
 .descripcionproyecto p span
 {
-	color: #F39C12;
+	color: #f39c12;
 }
 
 .proyectocontenedor:hover > .descripcionproyecto
