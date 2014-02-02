@@ -137,3 +137,10 @@ a.analyze:hover img{
 	padding: 20px;
 	color: #FFF;
 }
+.team img
+{
+	height: 125px;
+	width: 125px;
+	border-radius: 200px 200px 200px 200px;
+	
+}
