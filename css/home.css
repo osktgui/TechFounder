@@ -44,6 +44,8 @@ a.boton_aplicar:hover{
 	padding: 10px 5px;
 }
 
+
+
 .descripcionproyecto
 {
 	border-style: solid;
@@ -62,8 +64,9 @@ a.boton_aplicar:hover{
 {
 	position: absolute;
 	top: auto;
-	font-size: 16px;
-	font-family: 'Roboto';
+	font-size: 14px;
+	font-family: 'Lustria';
+
 }
 .descripcionproyecto p span
 {
@@ -88,6 +91,26 @@ a.boton_aplicar:hover{
 	height: 140px;
 	display: block;
 	text-align: center;
+	text-decoration: none;
+}
+
+#nextproject
+{
+	margin-top: 16%;
+}
+
+.proyecto span
+{
+	color: #F39C12;
+	font-size: 20px;
+	font-family: 'Roboto';
+}
+
+.proyecto p
+{
+	color: #CCC;
+	font-size: 14px;
+	font-family: 'Roboto';
 }
 
 .proyecto img{
@@ -95,7 +118,7 @@ a.boton_aplicar:hover{
 }
 
 .proyecto:hover{
-	border-color:#F39C12 ;
+	border-color: #F39C12;
 }
 
 
@@ -127,6 +150,7 @@ a.boton_aplicar:hover{
 	color: white;
 	background-color:#F39C12;
 }
+
 .procesos a img {
 	margin-top:50px;
 	height: 116px;
