@@ -175,3 +175,88 @@ footer p.foot_text
 	color: #666;
 	font-size: 22px;
 }
+
+/* JEAN */
+
+.team
+{
+	text-align: center;
+	display: inline-block;
+	padding-left: 20px;
+	padding-right: 30px;
+}
+
+.team a
+{
+	text-decoration: none;
+	color: #666;
+
+}
+
+.team p
+{
+	font-family: 'Roboto';
+	font-size: 20px;
+}
+
+.team span
+{
+	font-family: 'Lustria';
+	font-size: 14px;
+}
+
+.filateam
+{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.partner
+{
+	background: #f4f4f4;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-align: center;
+}
+
+.partner img
+{
+	border-right: 1px double #f4f4f4;
+	border-style: outset;
+}
+
+.partner a:last-child img
+{
+	border:none;
+}
+
+.startup
+{
+	background: url("../images/sprite_tf.png") no-repeat 0px -260px;
+	width: 140px;
+	height: 42px;
+}
+.xurface
+{
+	background: url("../images/sprite_tf.png") no-repeat -140px -260px;
+	width: 140px;
+	height: 42px;
+}
+.pecha
+{
+	background: url("../images/sprite_tf.png") no-repeat -280px -260px;
+	width: 140px;
+	height: 42px;
+}
+.esan
+{
+	background: url("../images/sprite_tf.png") no-repeat -420px -260px;
+	width: 140px;
+	height: 42px;
+}
+.bixal
+{
+	background: url("../images/sprite_tf.png") no-repeat -560px -260px;
+	width: 140px;
+	height: 42px;
+}
