@@ -171,3 +171,38 @@ footer p.foot_text
 	color: #666;
 	font-size: 22px;
 }
+
+/* JEAN */
+
+.team
+{
+	text-align: center;
+	display: inline-block;
+	padding-left: 20px;
+	padding-right: 30px;
+}
+
+.team a
+{
+	text-decoration: none;
+	color: #666;
+
+}
+
+.team p
+{
+	font-family: 'Roboto';
+	font-size: 20px;
+}
+
+.team span
+{
+	font-family: 'Lustria';
+	font-size: 14px;
+}
+
+.filateam
+{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
