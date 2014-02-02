@@ -5,6 +5,8 @@ header
 	width: 100%;
 	position: fixed;
 	z-index: 100;
+}
+header .ocultar{
 	top:-125px;
 }
 header h1.logo
@@ -52,6 +54,9 @@ header nav ul li nav
 	right: 0;
 	text-align: center;
 	background: #f39c12;
+	
+}
+header nav ul li nav.ocultar{
 	top:-80px;
 }
 header nav ul li img 
