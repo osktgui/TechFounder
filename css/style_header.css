@@ -181,14 +181,15 @@ footer p.foot_text
 	font-size: 22px;
 }
 
-/* JEAN */
+/* kevin estoy cambiando de display: inline-block a display inline-table, por motivos de alineacion en team*/
 
 .team
 {
 	text-align: center;
-	display: inline-block;
+	display: inline-table;
 	padding-left: 20px;
 	padding-right: 17px;
+	
 }
 
 .team a
