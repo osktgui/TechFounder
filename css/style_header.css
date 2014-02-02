@@ -5,12 +5,13 @@ header
 	width: 100%;
 	position: fixed;
 	z-index: 100;
+	top:-125px;
 }
 header h1.logo
 {
 	float: left;
 	margin-top: 25px;
-	margin-bottom: 16px;
+	margin-bottom: 10px;
 }
 header h1.logo span
 {
@@ -51,6 +52,7 @@ header nav ul li nav
 	right: 0;
 	text-align: center;
 	background: #f39c12;
+	top:-80px;
 }
 header nav ul li img 
 {
@@ -67,12 +69,14 @@ header nav ul li:last-child
 	background: #ccc;
 	margin-top: -1px;
 }
-header nav ul li:hover:last-child, header nav ul li:last-child 
+header nav ul li:hover:last-child
 {
 	background: #f39c12;
 }
-header nav ul l
-i:hover img, header nav ul li.active img
+header nav ul li.active{
+	background: #f39c12;
+}
+header nav ul li:hover img, header nav ul li.active img
 {
 	background-position: 0 0;
 }
