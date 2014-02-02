@@ -18,7 +18,7 @@
 		}else{
 			// $("#menu_adicional").slideDown("fast");
 			$("#menu_adicional").animate({
-	         "top": 63,
+	         "top": 42,
 	         "left": 0
 		      }, 500, "easeOutBounce");
 			elementoDOM.addClass('active');

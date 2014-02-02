@@ -6,14 +6,14 @@ header
 	position: fixed;
 	z-index: 100;
 }
-header .ocultar{
+header.ocultar{
 	top:-125px;
 }
 header h1.logo
 {
 	float: left;
-	margin-top: 25px;
-	margin-bottom: 10px;
+	margin-top: 10px;
+	margin-bottom: 0px;
 }
 header h1.logo span
 {
@@ -27,7 +27,7 @@ header nav a
 {
 	text-decoration: none;
 	font-family: 'Roboto', sans-serif;
-	font-size: 16px;
+	font-size: 14px;
 	color: #004444;
 	padding:12px;
 	display: block;
@@ -43,7 +43,7 @@ header nav a:hover
 header nav ul li
 {
 	display: inline-block;
-	margin: 15px 10px 0;
+	margin: 10px 10px 0;
 }
 header nav ul li nav
 {
@@ -70,7 +70,7 @@ header nav ul li img
 }
 header nav ul li:last-child
 {
-	padding: 16px 0;
+	padding: 5px 0;
 	background: #ccc;
 	margin-top: -1px;
 }
